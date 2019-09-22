@@ -422,7 +422,7 @@ body{
 		float: left;
 		width: 100%; 
 		padding: 10px;
-		height: 80vh;
+		height: auto;
 		background-color: white;
 		box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), 0 0 5px 0 rgba(0, 0, 0, 0.20);
 		box-shadow: 0 0 15px rgba(0,0,0,.1);

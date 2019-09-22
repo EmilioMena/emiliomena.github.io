@@ -386,6 +386,7 @@ body{
 		margin-left: 0;
 		width: 100%;
 		text-align: center;
+		height: auto;
 	}
 
     #right-about {
@@ -396,6 +397,7 @@ body{
 	
 	#right-projects {
 		width: 100%;
+		height: auto;
 	}
 
 	.title {
@@ -418,7 +420,7 @@ body{
 	.column {
 		margin-top: 5vh;
 		float: left;
-		width: 48%; 
+		width: 100%; 
 		padding: 10px;
 		height: 80vh;
 		background-color: white;

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sorting-Visulaizer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/05c45de28a.js"></script></script>
+
+</head>
+<body>
+    <div class='all-wrap'>
+            <div class="navbar" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0); left: 30px;">
+                    <div class="inner_wrap">
+                        <div class="menu_list scrollable" tabindex="5000" style="height: 430px; overflow: hidden; outline: none;">
+                            <ul>
+                                <li style="opacity: 1; left: 0px;"><a href="#right-about">About Me</a></li>
+                                <li style="opacity: 1; left: 0px;"><a href="#right-experience">Experience</a></li>
+                                <li style="opacity: 1; left: 0px;"><a href="#right-projects">Projects</a></li>
+                                <li style="opacity: 1; left: 0px;"><a href="#right-contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="bottom_parts" style="opacity: 1;">
+                            <span class="wing" style="opacity: 1; top: 0px;"></span>
+                            <span class="wing_second"></span>
+                            <div class="ddd">
+                                <div class="author_image">
+                                    <div class="image_inner" style="opacity: 1; bottom: 10px; right: 10px; left: 10px; top: 10px;"></div>
+                                </div>
+                                <div class="details_wrap" style="display: block;">
+                                    <div class="details_inner">
+                                        <h3 class="name">Emilio Mena</h3>
+                                        <div class="short_info">
+                                            <a target="_blank" href="mailto:eamena@uwaterloo.ca">eamena@uwaterloo.ca</a>
+                                            <div>
+                                                <a href="https://github.com/EmilioMena" target="_blank" class="fab fa-github fa-lg"></a><a href='https://www.linkedin.com/in/emilio-mena/' target="_blank"class="fab fa-linkedin fa-2 x"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fff" style="top: 0px;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div id = "right-about">
+                            <h1 class='name'>Emilio Mena</h1>
+                            <h1 class='welcome'>University of Waterloo || Management Engineering</h1>
+                            <h1 id = 'welcome2'>I'm interested in <span id="welcome-change">Big Data</span>  </h1>
+                    </div>
+
+                    <div id = "right-experience">
+                            <h1 class='title'>Experience</h1>
+                            <div class='experience-main'>
+                                <h1 class = "company">WATonomous || <a class="fas fa-link fa-xs" href="https://watonomous.ca" target="_blank"></a></h1>
+                                <h2 class = 'position'> Software Developer || Telemetry Subdivision</h1>
+                                <ul class='info'>
+                                    <li>Designing data pipelines and analysis systems to monitor and broadcast an autonomous vehicle’s critical data in real-time</li>
+                                    <li>Collaborating with front-end team to create effective visual representations of the aggregated data for external consumption</li>   
+                                </ul>
+                                <h1 class = "company"> <a href="https://scotiabank.com/ca/en">Scotiabank</a> </h1>
+                                <h1 class = 'position'>Data Engineering Intern</h1>
+                                <ul class = "info">
+                                    <li>My teams mandate was to develop an AML (Anti-Money Laundering) Transaction Monitoring solution for Scotiabank's canadian operations</li>
+                                    <li>Worked towards enhancing and enriching data environments to streamline data capture and ensure product coverage </li>
+                                    <li>Developed an automated exploratory data analysis tool comprised of Spark, HiveQL and Python libraries to produce data quality reports, replacing a previously manual procedure, saving ~45 hours per iteration</li>
+                                    <li>Translated business and technical requirements between subject matter experts and stakeholders for high impact business analysis </li>  
+                                </ul>
+                            </div>
+                    </div>  
+
+                    <div id = "right-projects">
+                            <h1 id='title-projects'>Projects</h1>
+                            <div class="row">
+                                    <div class="column left">
+                                      <h2>Sorting Algorithm Visualizer</h2>
+                                      <p>TYPE: Angular Application (in progress)</p>
+                                      <div class="project-imgs">
+                                          <img src="img/sorting-vis.png" class='algo-img'>
+                                      </div>
+                                      <div class='description'>
+                                            <p>DESCRIPTION:</p>
+                                            <P>When I first started learning about data structures and algorithms, I found it difficult to translate code into a picture in my head. I created Sorting Visualizer as an online website that will help those studying sorting algorithms visualize how these algorithms can efficiently rearrange a list of numbers. This application is being created using the Angular.Js framework</P>
+                                            <div class="icons">
+                                                <i class="fab fa-html5 fa-2x"></i><i class="fab fa-angular fa-2x"></i> <i class="fab fa-css3 fa-2x"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="column right">
+                                      <h2>SMS Morning NewsFeed || <a class="fas fa-link" href='https://github.com/EmilioMena/sms-morning-newsfeed' target="_blank"></a></h2>
+                                      <p>TYPE: Python Program</p>
+                                      <div class="project-imgs right">
+                                          <img src="./img/msg-img2.png" class='msg-img'>
+                                        </div>
+                                      <div class='description'>
+                                          <p>DESCRIPTION:</p>
+                                          <P>In need of quick and consice morning updates, I created a Python application that sends daily messages about sports, weather and stock information to users. I implemented various APIs using the requests library in Python, aggregated the data using the Pandas and Numpy libraries and sent the message through Twilio (cloud communications platform) </P>
+                                          <div class="icons">
+                                              <img class = 'desc-img' id="numpy" src="./img/numpyPandas.png" alt="Numpy"><i class="fab fa-python fa-2x"></i> <img class = 'desc-img' src="./img/pandas.png" alt="">
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                    </div>
+                    <div id = "right-contact">
+                            <h1 class='contact'>Contact Me!</h1>
+                            <div class='icons-contact'>
+                                    <a href="https://github.com/EmilioMena" target="_blank" class="fab fa-github fa-6x"></a><a href="mailto:eamena@uwaterloo.ca" target="_blank" class="fas fa-envelope-square fa-6x"></a><a href='https://www.linkedin.com/in/emilio-mena/' target="_blank"class="fab fa-linkedin fa-6x"></a>
+                            </div>
+                    </div>
+                </div>
+
+
+    </div>  
+        
+    
+</body>
+    <script src="js/script.js"> </script>
+    </html>

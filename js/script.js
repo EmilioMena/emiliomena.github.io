@@ -1,4 +1,4 @@
-var text = ["Big Data", "Machine Learning", "Artificial Intelligence"];
+var text = ["Big Data", "Machine Learning", "Data Analytics"];
 var counter = 0;
 var elem = document.getElementById("welcome-change");
 var inst = setInterval(change, 1000);
